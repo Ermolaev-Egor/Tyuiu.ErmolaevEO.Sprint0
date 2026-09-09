@@ -9,6 +9,7 @@ namespace Tyuiu.ErmolaevEO.Sprint0.Task2.V0.Test
         public void CheckGetMessageValid()
         {
             var name = "Егор";
+
             var res = DataService.GetMessage(name);
 
             Assert.AreEqual("Привет, Егор", res);
